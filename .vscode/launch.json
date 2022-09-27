@@ -1,0 +1,77 @@
+{
+  // 使用 IntelliSense 了解相关属性。
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "java-basic_b405fc4d"
+    },
+    {
+      "type": "java",
+      "name": "Launch Method",
+      "request": "launch",
+      "mainClass": "oop.Method",
+      "projectName": "java-basic_b405fc4d"
+    },
+    {
+      "type": "java",
+      "name": "Launch Class",
+      "request": "launch",
+      "mainClass": "oop.Class",
+      "projectName": "java-basic_b405fc4d"
+    },
+    {
+      "type": "java",
+      "name": "Launch IterateArr",
+      "request": "launch",
+      "mainClass": "array.IterateArr",
+      "projectName": "java-basic_b405fc4d"
+    },
+    {
+      "type": "java",
+      "name": "Launch If",
+      "request": "launch",
+      "mainClass": "flow_control.If",
+      "projectName": "java-basic_b405fc4d"
+    },
+    {
+      "type": "java",
+      "name": "Launch IO",
+      "request": "launch",
+      "mainClass": "flow_control.IO",
+      "projectName": "java-basic_b405fc4d"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array",
+      "request": "launch",
+      "mainClass": "array.Array",
+      "projectName": "java-basic_b405fc4d"
+    },
+    {
+      "type": "java",
+      "name": "Launch Variable",
+      "request": "launch",
+      "mainClass": "variable.Variable",
+      "projectName": "java-basic_b405fc4d"
+    },
+    {
+      "type": "java",
+      "name": "Launch HelloWorld",
+      "request": "launch",
+      "mainClass": "HelloWorld",
+      "projectName": "java-basic_b405fc4d"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    }
+  ]
+}
