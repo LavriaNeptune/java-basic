@@ -2,14 +2,15 @@ package oop;
 
 public class Method {
   public static void main(String[] args) {
-    class Person{
+
+    class Person {
         private String name;
         private int age;
         // public -> private,使得外部无法直接访问修改字段值 -> 通过 public 的方法来操纵内部封装数据
   
         public String getName() {
           return this.name;
-          // this 始终指向当前实例...如果没有命名冲突的情况下 this 是可以省略的...
+          // this 
         };
 
         public void setName(String name) {
@@ -30,7 +31,7 @@ public class Method {
     Person p1 = new Person();
 
     p1.setName("Lavria");
-    p1.setAge(99);
+    p1.setAge(199);
 
     System.out.println(p1.getName());
     System.out.println(p1.getAge());

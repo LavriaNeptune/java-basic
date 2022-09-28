@@ -1,15 +1,27 @@
 package oop;
 
-public class Method {
+public class ConstructionMethod {
   public static void main(String[] args) {
-    class Person{
+    class Person {
         private String name;
         private int age;
-        // public -> private,使得外部无法直接访问修改字段值 -> 通过 public 的方法来操纵内部封装数据
   
+        public Person(String name, int age) {
+          this.name = name;
+          this.age = age;
+        }
+        /*  */
+        public Person(String name) {
+          this.name = name;
+          this.age = 0;
+        }
+
+        public Person() {
+        }
+        // 如果不设置构造方法,默认生成上述无传入值的构造方法 -> 如果设置了自定义构造方法,还需要无传入值的方法必须显示地进行定义
+
         public String getName() {
           return this.name;
-          // this 始终指向当前实例...如果没有命名冲突的情况下 this 是可以省略的...
         };
 
         public void setName(String name) {
@@ -27,10 +39,10 @@ public class Method {
           this.age = age;
         };
     }
-    Person p1 = new Person();
+    Person p1 = new Person("Lavria",19);
 
-    p1.setName("Lavria");
-    p1.setAge(99);
+    // p1.setName("Lavria");
+    // p1.setAge(99);
 
     System.out.println(p1.getName());
     System.out.println(p1.getAge());

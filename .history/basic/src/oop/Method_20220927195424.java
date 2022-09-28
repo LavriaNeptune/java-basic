@@ -2,7 +2,7 @@ package oop;
 
 public class Method {
   public static void main(String[] args) {
-    class Person{
+    class Person {
         private String name;
         private int age;
         // public -> private,使得外部无法直接访问修改字段值 -> 通过 public 的方法来操纵内部封装数据

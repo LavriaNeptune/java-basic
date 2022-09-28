@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Polymorphic",
+      "request": "launch",
+      "mainClass": "oop.Polymorphic",
+      "projectName": "java-basic_b405fc4d"
+    },
+    {
+      "type": "java",
+      "name": "Launch Inheritance",
+      "request": "launch",
+      "mainClass": "oop.Inheritance",
+      "projectName": "java-basic_b405fc4d"
+    },
+    {
+      "type": "java",
+      "name": "Launch Overload",
+      "request": "launch",
+      "mainClass": "oop.Overload",
+      "projectName": "java-basic_b405fc4d"
+    },
+    {
+      "type": "java",
+      "name": "Launch ConstructionMethod",
+      "request": "launch",
+      "mainClass": "oop.ConstructionMethod",
+      "projectName": "java-basic_b405fc4d"
+    },
+    {
+      "type": "java",
       "name": "Launch App",
       "request": "launch",
       "mainClass": "App",
